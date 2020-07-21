@@ -1,0 +1,12 @@
+<ul class="nav nav-tabs">
+  <!-- <li class="active"><a href="/superheroes">Home</a></li> -->
+  <li class="active"><a routerLink="/superheroes">Home</a></li>
+  <li><a routerLink="/profile/NoHero">Profile</a></li>
+  <!-- <li><a href="/welcome">Welcome</a></li>  href will reload the page while routerLink does not--> 
+  <li><a routerLink="/welcome">Welcome</a></li>
+</ul>
+
+<div class = 'container'>
+  <!-- <app-hero-list></app-hero-list> -->
+  <router-outlet></router-outlet>
+</div>

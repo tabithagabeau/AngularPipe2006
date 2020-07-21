@@ -1,0 +1,12 @@
+<p>{{currentHero}}</p>
+
+<div> 
+    <button (click) = "getTodosEc2()"> Get Todos to Console</button><!-- Example of event binding - 2 way binding-->
+</div>
+
+<div>
+    <form [formGroup] ="todos"> <!-- Example of property binding-->
+        <input type='text' formControlName="title">
+        <button (click)='postTodosEc2(todos)'> Send Todo</button>
+    </form>
+</div>
